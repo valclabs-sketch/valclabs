@@ -44,6 +44,10 @@ const counterObserver = new IntersectionObserver((entries, observer) => {
   })
 }, { threshold: 0.45 })
 document.querySelectorAll('.counter').forEach(counter => counterObserver.observe(counter))
+const header = document.querySelector('.site-header')
+const updateHeader = () => header?.classList.toggle('scrolled', window.scrollY > 18)
+updateHeader()
+window.addEventListener('scroll', updateHeader, { passive: true })
 const heroScene = document.querySelector('.clean-growth-scene')
 if (heroScene) {
   const heroSceneObserver = new IntersectionObserver(entries => {
