@@ -18,6 +18,10 @@
   .impact-track{animation:none}
 }
 
+/* Preserve the overhang of the final glyph in large hero headlines. */
+.hero h1{box-sizing:content-box;padding-right:.14em;overflow:visible}
+.hero h1 span{box-sizing:content-box;padding-right:.14em;overflow:visible}
+
 /* 2026 premium trust and conversion system */
 :root{--navy-deep:#081a3c;--blue-electric:#176ff2;--surface:#f5f7fb;--surface-blue:#eef5ff;--shadow-premium:0 28px 80px rgba(8,26,60,.12);--shadow-card:0 16px 44px rgba(8,26,60,.09)}
 body{background:linear-gradient(180deg,#fff 0%,#fbfcff 100%)}
