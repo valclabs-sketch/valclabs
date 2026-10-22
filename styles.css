@@ -68,8 +68,9 @@ h2,
 h3 {
   margin: 0;
   font-family: Outfit, sans-serif;
-  line-height: 1.08;
+  line-height: 1.14;
   letter-spacing: -0.035em;
+  overflow: visible;
 }
 h2 {
   font-size: clamp(2.4rem, 4.4vw, 4.6rem);
@@ -238,8 +239,11 @@ ul {
 }
 .hero h1 span {
   display: block;
+  padding: 0.06em 0 0.12em;
+  margin-bottom: -0.12em;
   color: transparent;
   background: linear-gradient(100deg, var(--blue), var(--violet), var(--coral));
+  -webkit-background-clip: text;
   background-clip: text;
 }
 .hero-copy > p {
@@ -1104,10 +1108,11 @@ ul {
 }
 .coming-soon {
   position: absolute;
-  right: -60px;
-  top: 65px;
-  padding: 17px 78px;
-  transform: rotate(10deg);
+  right: 28px;
+  top: 28px;
+  padding: 13px 24px;
+  border-radius: 999px;
+  transform: rotate(3deg);
   color: #fff;
   background: linear-gradient(90deg, var(--blue), var(--violet), var(--coral));
   letter-spacing: 0.14em;
@@ -1595,8 +1600,10 @@ footer {
   }
   .coming-soon {
     top: auto;
-    bottom: 38px;
-    right: -45px;
+    bottom: 28px;
+    right: 22px;
+    padding: 12px 20px;
+    transform: rotate(2deg);
   }
   .footer-grid {
     grid-template-columns: 1fr;
