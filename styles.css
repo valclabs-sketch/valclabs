@@ -239,8 +239,7 @@ ul {
 }
 .hero h1 span {
   display: block;
-  padding: 0.06em 0 0.12em;
-  margin-bottom: -0.12em;
+  padding: 0.06em 0 0.2em;
   color: transparent;
   background: linear-gradient(100deg, var(--blue), var(--violet), var(--coral));
   -webkit-background-clip: text;
@@ -1087,6 +1086,10 @@ ul {
 .instagram .button {
   flex: none;
 }
+.academy-stack {
+  display: grid;
+  gap: 28px;
+}
 .academy-card {
   position: relative;
   overflow: hidden;
@@ -1100,6 +1103,9 @@ ul {
   background: linear-gradient(145deg, #f0f6ff, #fff);
   box-shadow: var(--shadow);
 }
+.academy-card-podcast {
+  background: linear-gradient(145deg, #fff7fb, #f4f7ff 58%, #eef8ff);
+}
 .academy-card > div {
   max-width: 700px;
 }
@@ -1108,11 +1114,12 @@ ul {
 }
 .coming-soon {
   position: absolute;
-  right: 28px;
-  top: 28px;
-  padding: 13px 24px;
-  border-radius: 999px;
-  transform: rotate(3deg);
+  top: 42px;
+  right: -72px;
+  width: 330px;
+  padding: 17px 35px;
+  transform: rotate(10deg);
+  text-align: center;
   color: #fff;
   background: linear-gradient(90deg, var(--blue), var(--violet), var(--coral));
   letter-spacing: 0.14em;
@@ -1600,10 +1607,11 @@ footer {
   }
   .coming-soon {
     top: auto;
-    bottom: 28px;
-    right: 22px;
-    padding: 12px 20px;
-    transform: rotate(2deg);
+    bottom: 32px;
+    right: -74px;
+    width: 310px;
+    padding: 14px 30px;
+    transform: rotate(-8deg);
   }
   .footer-grid {
     grid-template-columns: 1fr;
