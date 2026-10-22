@@ -1114,10 +1114,10 @@ ul {
 }
 .coming-soon {
   position: absolute;
-  top: 42px;
-  right: -26px;
-  width: 320px;
-  padding: 17px 48px;
+  top: 38px;
+  right: 32px;
+  width: 270px;
+  padding: 17px 28px;
   transform: rotate(10deg);
   text-align: center;
   white-space: nowrap;
@@ -1609,9 +1609,9 @@ footer {
   .coming-soon {
     top: auto;
     bottom: 32px;
-    right: -24px;
-    width: 285px;
-    padding: 14px 38px;
+    right: 24px;
+    width: 280px;
+    padding: 14px 26px;
     transform: rotate(-8deg);
   }
   .footer-grid {
