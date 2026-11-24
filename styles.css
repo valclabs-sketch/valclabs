@@ -486,6 +486,15 @@ ul {
   border-radius: 15px;
   background: rgba(255, 255, 255, 0.06);
 }
+.web-points .web-point-highlight {
+  grid-column: 1 / -1;
+  border-color: rgba(103, 211, 240, 0.45);
+  background: linear-gradient(
+    120deg,
+    rgba(103, 211, 240, 0.14),
+    rgba(124, 77, 210, 0.16)
+  );
+}
 .web-points b,
 .web-points span {
   display: block;
